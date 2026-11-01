@@ -1,0 +1,25 @@
+{
+  "name": "store-rating-platform",
+  "version": "1.0.0",
+  "description": "FullStack Store Rating & Review Web Application",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node backend/seed.js",
+    "build": "cd frontend && npm run build",
+    "test": "node test_suite.js",
+    "dev:backend": "node backend/server.js",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "sqlite",
+    "postgres",
+    "mysql",
+    "rating-platform",
+    "intern-coding-challenge"
+  ],
+  "author": "FullStack Intern",
+  "license": "ISC"
+}
+
